@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profesora Maribel</title>
+  <style>
+    :root {
+      --color-uno: #e3f2fd; /* azul muy claro */
+      --color-dos: #ffe4ec; /* rosado claro */
+      --color-texto: #333;
+      --color-principal: #6c63ff;
+      --color-secundario: #ff6584;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, var(--color-uno), var(--color-dos));
+      margin: 0;
+      padding: 0;
+      color: var(--color-texto);
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid var(--color-principal);
+      margin-bottom: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      color: var(--color-principal);
+    }
+
+    header p {
+      font-style: italic;
+      color: #666;
+    }
+
+    nav {
+      background-color: var(--color-principal);
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+      font-size: 1em;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.07);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    h2 {
+      color: var(--color-secundario);
+      border-left: 6px solid var(--color-principal);
+      padding-left: 12px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--color-principal);
+    }
+
+    footer {
+      background-color: white;
+      color: #777;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      border-top: 2px solid #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="1.png" alt="Foto de la profesora" />
+    <h1>Profesora Maribel</h1>
+    <p>Inspirando corazones y mentes con dulzura</p>
+  </header>
+
+  <nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#materias">Materias</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <section id="perfil">
+      <div class="card">
+        <h2>Perfil</h2>
+        <p>Maribel es una maestra con alma de guía. Con años de experiencia, su vocación se refleja en cada clase donde combina conocimiento, empatía y motivación para cambiar vidas.</p>
+      </div>
+    </section>
+
+    <section id="materias">
+      <div class="card">
+        <h2>Materias</h2>
+        <ul>
+          <li>Comunicación Integral</li>
+          <li>Lenguaje y Literatura</li>
+          <li>Formación Ciudadana</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="recursos">
+      <div class="card">
+        <h2>Recursos</h2>
+        <p>Puedes acceder a guías, actividades y lecturas interactivas en <a href="#">este enlace</a>. Materiales preparados con dedicación para cada estudiante.</p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="card">
+        <h2>Contacto</h2>
+        <p>Email: maribel@colegio.edu.pe</p>
+        <p>Teléfono: +51 987 654 321</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Profesora Maribel - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
